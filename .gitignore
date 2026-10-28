@@ -1,0 +1,14 @@
+# Local Python virtual environments
+.venv/
+venv/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
